@@ -28,6 +28,28 @@
       ],
       "ast": [
         "aggregate/ast/af77385d0daf4d0e949e81f2588be2e44f69f086/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/af77385d0daf4d0e949e81f2588be2e44f69f086.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "no-panic",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "dtolnay",
+          "githubRepo": "no-panic",
+          "githubUrl": "https://github.com/dtolnay/no-panic",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "criterion",
+          "ecosystem": "CARGO",
+          "version": "0.8.2",
+          "githubOrg": "criterion-rs",
+          "githubRepo": "criterion.rs",
+          "githubUrl": "https://github.com/criterion-rs/criterion.rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/criterion-0.8.2/src/bencher.rs"
+        }
       ]
     }
   ],
